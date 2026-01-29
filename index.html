@@ -3,57 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <title>Chetan Rokade - Resume</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-    <div class="container">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <div class="container my-5">
 
         <!-- Header -->
-        <header>
-            <h1>Chetan Rokade</h1>
-            <p class="title">Engineering Student (EXTC)</p>
-        </header>
+        <div class="text-center mb-4">
+            <h1 class="fw-bold">Chetan Rokade</h1>
+            <p class="text-muted fs-5">BE EXTC Student</p>
+        </div>
 
         <!-- Personal Details -->
-        <section>
-            <h2>Personal Details</h2>
-            <p><strong>Name:</strong> Chetan Rokade</p>
-            <p><strong>Course:</strong> Bachelor of Engineering (EXTC)</p>
-        </section>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h4 class="card-title text-primary">Personal Details</h4>
+                <p><strong>Name:</strong> Chetan Rokade</p>
+                <p><strong>Course:</strong> Bachelor of Engineering (EXTC)</p>
+            </div>
+        </div>
 
         <!-- Education -->
-        <section>
-            <h2>Education</h2>
-            <div class="item">
-                <h3>Bachelor of Engineering – EXTC</h3>
-                <p>Terna College of Engineering</p>
-                <p>2024 – 2028</p>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h4 class="card-title text-primary">Education</h4>
+                <p class="mb-1 fw-semibold">Bachelor of Engineering – EXTC</p>
+                <p class="mb-1">Terna College of Engineering</p>
+                <p class="text-muted">2024 – 2028</p>
             </div>
-        </section>
+        </div>
 
         <!-- Skills -->
-        <section>
-            <h2>Skills</h2>
-            <ul class="skills">
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-        </section>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h4 class="card-title text-primary">Skills</h4>
+                <span class="badge bg-primary me-2">HTML</span>
+                <span class="badge bg-success">CSS</span>
+            </div>
+        </div>
 
         <!-- Contact Information -->
-        <section>
-            <h2>Contact Information</h2>
-            <p><strong>Email:</strong> yourname@email.com</p>
-            <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
-        </section>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h4 class="card-title text-primary">Contact Information</h4>
+                <p><strong>Email:</strong> yourname@email.com</p>
+                <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+            </div>
+        </div>
 
         <!-- Footer -->
-        <footer>
+        <footer class="text-center mt-4 text-muted">
             <p>© 2026 Chetan Rokade</p>
         </footer>
 
     </div>
 
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
