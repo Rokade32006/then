@@ -1,78 +1,74 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-    background-color: #f4f6f8;
-    color: #333;
-    line-height: 1.6;
-}
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>John Doe</h1>
+            <p class="title">Web Developer</p>
+        </header>
 
-.container {
-    max-width: 800px;
-    margin: 30px auto;
-    background: #fff;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+        <!-- Personal Details -->
+        <section>
+            <h2>Personal Details</h2>
+            <p><strong>Date of Birth:</strong> 01 January 2000</p>
+            <p><strong>Address:</strong> New York, USA</p>
+            <p><strong>Nationality:</strong> American</p>
+        </section>
 
-header {
-    text-align: center;
-    margin-bottom: 25px;
-}
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <div class="item">
+                <h3>Bachelor of Computer Science</h3>
+                <p>ABC University (2019 – 2023)</p>
+            </div>
+        </section>
 
-header h1 {
-    font-size: 36px;
-    color: #2c3e50;
-}
+        <!-- Skills -->
+        <section>
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Responsive Web Design</li>
+            </ul>
+        </section>
 
-header .title {
-    font-size: 18px;
-    color: #777;
-}
+        <!-- Experience -->
+        <section>
+            <h2>Experience</h2>
+            <div class="item">
+                <h3>Junior Web Developer</h3>
+                <p>XYZ Company (2023 – Present)</p>
+                <ul>
+                    <li>Developed responsive websites</li>
+                    <li>Maintained existing web applications</li>
+                    <li>Collaborated with designers and developers</li>
+                </ul>
+            </div>
+        </section>
 
-section {
-    margin-bottom: 20px;
-}
+        <!-- Contact Information -->
+        <section>
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> johndoe@email.com</p>
+            <p><strong>Phone:</strong> +1 234 567 890</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/johndoe</p>
+        </section>
 
-section h2 {
-    border-bottom: 2px solid #3498db;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-    color: #3498db;
-}
+        <!-- Footer -->
+        <footer>
+            <p>© 2026 John Doe</p>
+        </footer>
+    </div>
 
-.item h3 {
-    font-size: 18px;
-    color: #2c3e50;
-}
-
-.skills {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.skills li {
-    background: #3498db;
-    color: #fff;
-    padding: 6px 12px;
-    margin: 5px;
-    border-radius: 4px;
-    font-size: 14px;
-}
-
-ul {
-    margin-left: 20px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 20px;
-    color: #777;
-    font-size: 14px;
-}
+</body>
+</html>
